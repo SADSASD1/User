@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="95.0" prefHeight="305.0" prefWidth="700.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="First_Name" layoutX="208.0" layoutY="25.0" prefHeight="38.0" prefWidth="253.0" promptText="FirstName">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="Last_Name" layoutX="208.0" layoutY="76.0" prefHeight="38.0" prefWidth="253.0" promptText="LastName">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="EmailField" layoutX="208.0" layoutY="132.0" prefHeight="38.0" prefWidth="253.0" promptText="Email">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="PasswordField" layoutX="208.0" layoutY="194.0" prefHeight="42.0" prefWidth="253.0" promptText="Password">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+      <Label layoutX="247.0" layoutY="22.0" prefHeight="49.0" prefWidth="197.0" text="My first app" textFill="#fff0f0">
+         <font>
+            <Font name="Academy" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
